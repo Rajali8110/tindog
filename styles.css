@@ -1,0 +1,183 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+
+}
+h2 {
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 17%;
+}
+
+/*Sections*/
+.colored-section
+{
+background-color: #ff4c68;
+color: #fff;
+}
+.white-section{
+background-color: #fff;
+}
+/*headings*/
+
+.big-heading {
+
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.section-heading{
+  font-size: 3rem;
+line-height: 1.5;
+}
+/*title*/
+#title .container-fluid{
+  padding: 3% 15% 6% !important;
+}
+#title {
+
+  text-align: left;
+}
+
+
+
+/* navigation bar */
+.navbar-brand {
+  font-family: 'ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone image */
+@media (max-width:1200px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    width: 50% !important;
+    position: static !important;
+    transform: rotate(0) !important;
+    margin-left: auto !important;
+  }
+}
+
+.iphone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 70px;
+}
+
+/*feature box*/
+#features {
+  position: relative;
+}
+
+.icon {
+  color: #ef2172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+
+  padding: 4.5%;
+}
+
+/*testimonials section*/
+#testimonials {
+
+  background-color: #ef2172;
+}
+
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*Press Section*/
+#press {
+  background-color: #ef2172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px 100px 60px 100px;
+
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*CTA Section*/
+
+.h3-cta {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.download-btn {
+  margin: 3% 3% 5% 0;
+}
+
+/*footer*/
+
+.f-img {
+  padding: 20px 10px;
+}
